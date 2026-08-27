@@ -1,0 +1,20 @@
+node_modules
+/apps/web/node_modules
+/packages/ui/node_modules
+/apps/web/.next
+/apps/api/node_modules
+/*/node_modules
+
+# Turbo build cache (large files)
+.turbo
+.turbo/
+.turbo/cache
+
+# Environment files
+.env
+.env*.local
+
+# Build outputs & artifacts
+.next
+dist
+build
